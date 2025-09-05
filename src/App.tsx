@@ -2,26 +2,26 @@ import React, { useState, Suspense } from 'react';
 import LandingPage from '../components/Landing/LandingPage';
 import Header from '../components/Layout/Header';
 import Sidebar from '../components/Layout/Sidebar';
-import Dashboard from './components/Dashboard/Dashboard';
-import WaterQuality from './components/WaterQuality/WaterQuality';
-import FishHealth from './components/FishHealth/FishHealth';
-import Visualization3D from './components/Visualization3D/Visualization3D';
-import Reports from './components/Reports/Reports';
-import Maintenance from './components/Maintenance/Maintenance';
-import AlertsModule from './components/Alerts/AlertsModule';
-import CageManagement from './components/CageManagement/CageManagement';
-import Infrastructure from './components/Infrastructure/Infrastructure';
-import StructuralHistory from './components/Structural/StructuralHistory';
-import ModelsPage from './components/ModelViewer/ModelsPage';
-import CenterComparison from './components/Comparative/CenterComparison';
-import LoginPage from './components/Auth/LoginPage';
-import SupportCenter from './components/Support/SupportCenter';
-import LoyaltyProgram from './components/Gamification/LoyaltyProgram';
-import SmartNotifications from './components/Notifications/SmartNotifications';
-import Feeding from './components/Feeding/Feeding';
-import ConcessionsModule from './components/Concessions/ConcessionsModule'; // Importar nuevo módulo
-import { config } from './shared/env';
-import ToastContainer from './modules/notifications/components/ToastContainer';
+import Dashboard from '../components/Dashboard/Dashboard';
+import WaterQuality from '../components/WaterQuality/WaterQuality';
+import FishHealth from '../components/FishHealth/FishHealth';
+import Visualization3D from '../components/Visualization3D/Visualization3D';
+import Reports from '../components/Reports/Reports';
+import Maintenance from '../components/Maintenance/Maintenance';
+import AlertsModule from '../components/Alerts/AlertsModule';
+import CageManagement from '../components/CageManagement/CageManagement';
+import Infrastructure from '../components/Infrastructure/Infrastructure';
+import StructuralHistory from '../components/Structural/StructuralHistory';
+import ModelsPage from '../components/ModelViewer/ModelsPage';
+import CenterComparison from '../components/Comparative/CenterComparison';
+import LoginPage from '../components/Auth/LoginPage';
+import SupportCenter from '../components/Support/SupportCenter';
+import LoyaltyProgram from '../components/Gamification/LoyaltyProgram';
+import SmartNotifications from '../components/Notifications/SmartNotifications';
+import Feeding from '../components/Feeding/Feeding';
+import ConcessionsModule from '../components/Concessions/ConcessionsModule'; // Importar nuevo módulo
+import { config } from '../shared/env';
+import ToastContainer from '../modules/notifications/components/ToastContainer';
 import { MODULES, ModuleId } from './constants/modules';
 
 // Lazy load del nuevo componente

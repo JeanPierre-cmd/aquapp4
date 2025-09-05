@@ -17,7 +17,7 @@ import {
   Ship
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
-import { MODULES, ModuleId } from '../../constants/modules';
+import { MODULES, ModuleId } from '../../src/constants/modules';
 import { useConcessionStore } from '../../stores/concessionStore';
 
 interface SidebarProps {
