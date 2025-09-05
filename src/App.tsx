@@ -1,5 +1,5 @@
 import React, { useState, Suspense } from 'react';
-import LandingPage from './components/Landing/LandingPage.tsx';
+import LandingPage from '../components/Landing/LandingPage';
 import Header from './components/Layout/Header';
 import Sidebar from './components/Layout/Sidebar';
 import Dashboard from './components/Dashboard/Dashboard';
