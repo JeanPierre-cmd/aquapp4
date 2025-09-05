@@ -10,12 +10,12 @@ const fallbackKey = 'demo-anon-key';
 if (!supabaseUrl || !supabaseAnonKey) {
   console.warn('Supabase URL or Anon Key is missing. The app will run in DEMO mode.');
 }
-  auth: {
-    persistSession: true,
-  },
-});
 
 export const supabase = createClient(
   supabaseUrl || fallbackUrl, 
   supabaseAnonKey || fallbackKey, 
   {
+  auth: {
+    persistSession: true,
+  },
+});
