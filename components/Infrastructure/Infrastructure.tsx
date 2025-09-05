@@ -4,7 +4,7 @@ import CageManagement from '../CageManagement/CageManagement';
 import ModelDataManager from './ModelDataManager';
 import Visualization3D from '../Visualization3D/Visualization3D';
 import Maintenance from '../Maintenance/Maintenance';
-import NetsModule from '@/features/nets/components/NetsModule'; // Import the new Nets module
+import NetsModule from '../../features/nets/components/NetsModule.tsx'; // Import the new Nets module
 import { useNotifications } from '../../modules/notifications/useNotifications';
 import { 
   Building2, 

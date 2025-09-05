@@ -25,7 +25,7 @@ import ToastContainer from '../modules/notifications/components/ToastContainer';
 import { MODULES, ModuleId } from './constants/modules';
 
 // Lazy load del nuevo componente
-const ImportarPage = React.lazy(() => import('./features/import/ImportarPage'));
+const ImportarPage = React.lazy(() => import('../features/import/ImportarPage.tsx'));
 
 function App() {
   const [activeModule, setActiveModule] = useState<ModuleId>(MODULES.DASHBOARD);
