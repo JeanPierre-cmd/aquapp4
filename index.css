@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 158 127 255; /* #9E7FFF */
+    --color-secondary: 56 189 248; /* #38bdf8 */
+    --color-accent: 244 114 182; /* #f472b6 */
+    --color-background: 23 23 23; /* #171717 */
+    --color-surface: 38 38 38; /* #262626 */
+    --color-text: 255 255 255; /* #FFFFFF */
+    --color-text-secondary: 163 163 163; /* #A3A3A3 */
+    --color-border: 47 47 47; /* #2F2F2F */
+    --color-success: 16 185 129; /* #10b981 */
+    --color-warning: 245 158 11; /* #f59e0b */
+    --color-error: 239 68 68; /* #ef4444 */
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors duration-200;
+  }
+  .btn-secondary {
+    @apply bg-secondary text-white px-4 py-2 rounded-lg hover:bg-secondary/90 transition-colors duration-200;
+  }
+  .input-field {
+    @apply bg-surface border border-border rounded-lg px-3 py-2 text-text placeholder-textSecondary focus:ring-primary focus:border-primary transition-all duration-200;
+  }
+  /* Custom scrollbar for chat window */
+  .custom-scrollbar {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: var(--color-blue-600) var(--color-gray-700); /* For Firefox */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: var(--color-surface);
+    border-radius: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #4a5568; /* A darker gray for the thumb */
+    border-radius: 10px;
+    border: 2px solid var(--color-surface);
+  }
+}
+
+/* Custom animation for scaling in */
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scale-in 0.5s ease-out forwards;
+  opacity: 0; /* Start hidden */
+}
+
+/* Delay for sequential animations */
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }

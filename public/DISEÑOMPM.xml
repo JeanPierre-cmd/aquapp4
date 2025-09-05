@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROPERTIES version="2">
+  <environmentloads>
+    <load1 type="directional" waveamplitude="0.95" waveperiod="8.0" waveangle="180.0" wavetype="1" windtype="1" currentx="0.1" currenty="0.0" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load1>
+    <load2 type="directional" waveamplitude="2.8499999999999996" waveperiod="8.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load2>
+    <load3 type="directional" waveamplitude="4.75" waveperiod="8.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load3>
+    <load4 type="directional" waveamplitude="0.95" waveperiod="12.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load4>
+    <load5 type="directional" waveamplitude="2.8499999999999996" waveperiod="12.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load5>
+    <load6 type="directional" waveamplitude="4.75" waveperiod="12.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load6>
+    <load7 type="directional" waveamplitude="0.95" waveperiod="16.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load7>
+    <load8 type="directional" waveamplitude="2.8499999999999996" waveperiod="16.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load8>
+    <load9 type="directional" waveamplitude="4.75" waveperiod="16.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.1" currenty="1.2246467991473533E-17" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load9>
+    <load10 type="directional" waveamplitude="5.699999999999999" waveperiod="8.0" waveangle="180.0" wavetype="1" windtype="1" currentx="-0.01" currenty="1.2246467991473532E-18" windx="-0.0" windy="0.0" group="0">
+      <generator numofwaves="100" wavetype="0" seed="0" shortcrest="false" symmetri="false" random="false" radian="2.0" jonswappeek="1.0" x="0.0" y="0.0" />
+      <windgenerator numberofwinds="100" spectrumtype="0" seed="0" windtype="0" isshortcrest="false" issymmetric="false" israndom="false" cosn="2.0" peek="1.0" x="0.0" y="0.0" />
+    </load10>
+  </environmentloads>
+</PROPERTIES>

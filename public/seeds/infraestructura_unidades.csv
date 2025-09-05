@@ -1,0 +1,4 @@
+unit_id,site_id,tipo_unidad,diametro_m,largo_m,ancho_m,prof_fondeo_m,config_mooring,capacidad_peq,fabricante,fecha_instalacion
+U-001A,ST-001,balsa_jaula_circular,30,,,"50",SPM,50000,AKVA Group,2023-05-20
+U-001B,ST-001,balsa_jaula_circular,30,,,"50",SPM,50000,AKVA Group,2023-05-20
+U-002A,ST-002,linea_rectangular,,"100","20","75",MPM,120000,Garware,2023-02-10

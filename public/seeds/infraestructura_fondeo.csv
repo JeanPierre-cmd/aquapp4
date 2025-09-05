@@ -1,0 +1,4 @@
+mooring_id,site_id,unit_id,tipo_elemento,material,wll_t,diametro_mm,longitud_m,fabricante,ultima_inspeccion,proxima_inspeccion,res_1821_compliance,nota
+M-001A-1,ST-001,U-001A,Ancla,Acero Galvanizado,15,,,Fondeos del Sur,2024-01-10,2025-01-10,si,Inspección visual OK
+M-001A-2,ST-001,U-001A,Grillete,Acero Inox,20,25,,Fondeos del Sur,2024-01-10,2025-01-10,si,
+M-002A-1,ST-002,U-002A,Linea Fondeo,Dyneema,30,40,150,Garware,2023-12-15,2024-12-15,si,Tensión verificada

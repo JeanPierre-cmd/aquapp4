@@ -1,0 +1,3 @@
+site_id,nombre_site,tipo_site,region,comuna,lat,lng,propietario,estado_operacion,rea_numero,fecha_alta
+ST-001,Granja Marina Norte,centro_cultivo,Los Lagos,Puerto Montt,-41.4695, -72.9412,AquaChile,operativo,12345,2023-01-15
+ST-002,Centro Austral,centro_cultivo,Magallanes,Punta Arenas,-53.1638, -70.9171,Salmones Austral,operativo,54321,2022-11-01

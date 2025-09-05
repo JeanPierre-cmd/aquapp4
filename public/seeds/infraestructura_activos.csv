@@ -1,0 +1,4 @@
+asset_id,site_id,unit_id,categoria,nombre,marca,modelo,serie,fecha_compra,estado,ubicacion,critico
+AS-CAM-01,ST-001,U-001A,camara,Cámara Submarina HD,AquaCam,HD-Pro-v2,SN123456,2023-08-01,operativo,Jaula 1A,no
+AS-SEN-01,ST-001,U-001A,sensor,Sensor Oxígeno Disuelto,OxySense,OS-3000,SN654321,2023-08-01,operativo,Jaula 1A,si
+AS-ALI-01,ST-002,U-002A,alimentador,Alimentador Automático,FeedMaster,FM-500,SN789012,2023-03-15,operativo,Línea A,si
